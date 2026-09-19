@@ -408,7 +408,7 @@ with tab_about:
 
     ### Modelo
 
-    **Método:** Pipeline: TF-IDF, LSA y clasificadorlinearSVC    
+    **Método:** Pipeline: TF-IDF, LSA y clasificador linearSVC    
     **Tarea:** Clasificación multicategoría   
 
     **Versión:** 1.0  
