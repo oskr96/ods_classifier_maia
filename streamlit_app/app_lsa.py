@@ -78,7 +78,7 @@ with tab_single:
             try:
                 prediction = model.predict([text])[0]
                 name_ods = get_ods_name(prediction)
-                st.success(f"Clase predicha: **{prediction}** : **{name_ods}**")
+                st.success(f"ODS predicho: **{prediction}** - **{name_ods}**")
             except Exception as e:
                 st.error(f"Error durante la predicción: {e}")
     # Smaller, centered architecture image
